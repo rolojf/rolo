@@ -1,0 +1,6 @@
+/* Aquí poner lo extra específico para cada sitio - modificado */
+
+.primer-objetivo {
+    @apply text-lg font-semibold;
+}
+
