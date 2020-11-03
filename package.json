@@ -1,22 +1,14 @@
 {
-  "name": "rolojf-base2",
+  "name": "rolo.tips",
   "version": "1.1.0",
-  "description": "Starter for all my projects",
+  "description": "Página blog personal rolo.tips",
   "main": "index.js",
-  "repository": "https://github.com/rolojf/base2.git",
-  "author": "rolo@tutamail.com",
+  "repository": "https://github.com/rolojf/rolo.git",
+  "author": "RF",
   "license": "MIT",
   "scripts": {
-    "dev": "run-p dev:elm dev:hugo",
-    "dev:hugo": "NODE_ENV=development hugo server --disableFastRender --navigateToChanged",
-    "dev:elm": "nodemon --exec ./build-elm.sh",
-    "prod": "run-s deploy:assets build:hugo",
-    "deploy:assets": "./build-elm-optimiza.sh && ./optim-elm.sh",
-    "build:hugo": "NODE_ENV=production hugo --gc --minify"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6",
-    "npm-run-all": "^4.1.5"
   },
   "dependencies": {
     "@sanity/client": "^2.0.1",
