@@ -1,0 +1,36 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: espiritual
+#+hugo_auto_set_lastmod: t
+#+hugo_menu: :menu secundario
+#+description: ""
+
+* TODO Personal Blog sobre mi Fe en Cristo Jesús
+:PROPERTIES: 
+:EXPORT_FILE_NAME: nota-uno.es.md
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :widgets '(recent)
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :subtitle Primer Nota de Fe
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :translationKey firstNote
+:END:
+
+#+html: <div class="prose">
+**** Primer Título de Fe
+Otra vez No se si aquí o si voy a presentar o no.
+#+hugo: more
+
+Por ahora solo quiero saber cómo se verá esto aucibus ornare suspendisse sed nisi lacus, sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat.
+
+#+html: </div>
+
+
+* TODO Personal Blog about My Faith in Jesus Christ
+:PROPERTIES: 
+:EXPORT_FILE_NAME: first-note
+:EXPORT_HUGO_SECTION: en/espiritual
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :widgets '(recent)
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :subtitle Faith In Christ Jesus
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :translationKey firstNote
+:END:
+
+** First Title
+Other text I won't by now precise exactly whats going on
+
